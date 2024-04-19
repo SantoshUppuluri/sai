@@ -1,0 +1,66 @@
+#about{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.tile{
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    color: beige;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 1.25rem;
+    max-width: 70rem;
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+}
+
+.stack-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.technology{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.techstack-title{
+    display: flex;
+    gap: 2rem; 
+    font-size: 1.5rem;
+    font-weight:300;
+    color: aqua;
+}
+.icons{
+    display: flex;
+    gap: 2rem;
+}
+
+
+.social-links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: aqua;
+    
+}
+@media screen and (max-width: 768px) {
+    .paragraph{
+        justify-content: center;
+    }
+}
