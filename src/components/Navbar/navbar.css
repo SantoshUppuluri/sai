@@ -53,3 +53,9 @@
 .active{
     color:rgb(18, 205, 230); ;
 }
+
+@media screen and (max-width: 768px) {
+    .menubarBtn{
+        display: none;
+    }
+}

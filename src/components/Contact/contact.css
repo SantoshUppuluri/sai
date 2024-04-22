@@ -46,3 +46,14 @@
 .submitBtn:hover{
     scale: 1.05;
 }
+@media screen and (max-width: 768px) {
+    #contact{
+        padding: 1rem;
+    }
+    .titleContact{
+        font-size: 1.5rem;
+    }
+    .contactDes{
+        font-size: 1rem;
+    }
+}

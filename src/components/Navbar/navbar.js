@@ -12,8 +12,7 @@ const Navbar = () => {
         <div className='menubar'>
             <Link activeClass='active ' to='home'spy={true} smooth={true} offset={-100} duration={500} className='menubarListItem'>HOME</Link>
             <Link activeClass='active ' to='about'spy={true} smooth={true} offset={-100} duration={500}className='menubarListItem'>ABOUT</Link>
-            <Link activeClass='active ' to='project'spy={true} smooth={true} offset={-10} duration={500}className='menubarListItem'>PROJECT</Link> 
-          
+            <Link activeClass='active ' to='project'spy={true} smooth={true} offset={-10} duration={500}className='menubarListItem'>PROJECT</Link>  
         </div> 
         <button className='menubarBtn' onClick={()=>{
           document.getElementById('contact').scrollIntoView({behavior: 'smooth'});

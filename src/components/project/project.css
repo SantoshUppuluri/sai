@@ -101,16 +101,16 @@
   .project-image>img:hover {
     scale: 1.1;
   }
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     .project-image>img {
       display: flex;
   
       align-items: center;
-      width: 400px;
+      width: 280px;
     }
   
     .alignCenter {
       display: flex;
       justify-content: center;
     }
-}
+  }

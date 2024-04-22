@@ -61,6 +61,10 @@
 }
 @media screen and (max-width: 768px) {
     .paragraph{
-        justify-content: center;
+        font-weight: 300;
+        font-style: italic;
+    }
+    .stack-container{
+        margin: 1rem;
     }
 }
