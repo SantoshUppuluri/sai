@@ -41,10 +41,10 @@ const About = () => {
             </div>    
             <div className="social-links">
             <h4><span>Social Media:</span></h4>
-              <a href="https://www.linkedin.com/in/uppuluri-eswara-venkata-phani-sai-santosh/" target="_blank">
+              <a href="https://www.linkedin.com/in/uppuluri-eswara-venkata-phani-sai-santosh/" rel='noreferrer' target="_blank">
                 <img src={linkedin} alt="linkdin" width={30} />
               </a>
-              <a href="https://github.com/SantoshUppuluri"target="_blank" >
+              <a href="https://github.com/SantoshUppuluri" rel='noreferrer' target="_blank" >
                 <img src={gihub} alt="github" width={30} />
               </a>
             </div>
