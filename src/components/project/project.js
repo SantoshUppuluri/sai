@@ -47,7 +47,7 @@ const Project = () => {
                   <div className="githubButton">
                     <button className='buttonimg'>
                       {" "}
-                      <a href={eachObj.githubUrl} target="_blank">
+                      <a href={eachObj.githubUrl} target="_blank" rel='noreferrer'>
                         <div className="buttons-inside">
                           Github
                           <FaGithub />
@@ -58,7 +58,7 @@ const Project = () => {
                   <div className="liveButton">
                     <button className='buttonimg'>
                       {" "}
-                      <a href={eachObj.liveUrl} target="_blank">
+                      <a href={eachObj.liveUrl} target="_blank" rel='noreferrer'>
                         <div className="buttons-inside">
                           Preview
                           <HiExternalLink />
