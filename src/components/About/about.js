@@ -7,7 +7,6 @@ import react from '../../assets/react.png'
 import python from '../../assets/pyhton.png'
 import linkedin from '../../assets/linkedin.png'
 import gihub from '../../assets/github.png'
-import fontimg from '../../assets/frontend.png'
 
 const About = () => {
   return (
