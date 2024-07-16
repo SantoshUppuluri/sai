@@ -1,26 +1,19 @@
 import React from 'react'
 import './navbar.css'
-import logo from '../../assets/logo.png'
-import {Link} from 'react-scroll'
-import contact from '../../assets/contact.png'
 
-
-const Navbar = () => {
+const Navbar = () => {  
   return (
     <nav className='navbar'>
-        <img src={logo} alt='logo' className='logo'/>
+       <h3 className='logo'>Santosh.dev</h3>
         <div className='menubar'>
-            <Link activeClass='active ' to='home'spy={true} smooth={true} offset={-100} duration={500} className='menubarListItem'>HOME</Link>
-            <Link activeClass='active ' to='about'spy={true} smooth={true} offset={-100} duration={500}className='menubarListItem'>ABOUT</Link>
-            <Link activeClass='active ' to='project'spy={true} smooth={true} offset={-10} duration={500}className='menubarListItem'>PROJECT</Link>  
+        <a href='#home' className='menubarListItem'>Home</a>
+        <a href='#about' className='menubarListItem'>About</a>
+        <a href='#project' className='menubarListItem'>Project</a>
+        <a href='#contact' className='menubarListItem'>Contact</a>
+        <a href="https://drive.google.com/file/d/11CYmo3IO5zX6tKv_yPzEI6j2qE5HcBtF/view?usp=drive_link" rel='noreferrer' target="_blank"className='menubarListItem'>Resume</a>
         </div> 
-        <button className='menubarBtn' onClick={()=>{
-          document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
-        }}>
-        <img src={contact} alt='contact' className='contacts'/>
-            Contact me
-        </button>
     </nav>
+    
   )
 }
 

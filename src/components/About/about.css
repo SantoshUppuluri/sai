@@ -11,8 +11,9 @@
 }
 .tile{
     font-size: 3rem;
-    font-weight: 500;
-    padding-top: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    margin-top:7rem;
     margin-bottom: 1rem;
     color: beige;
 }
@@ -66,5 +67,15 @@
     }
     .stack-container{
         margin: 1rem;
+    }
+    .icons{
+        gap:0.5rem;
+    }
+    .social-links{
+        gap:1rem;
+    }
+    .tile{
+        font-size:1.5rem;
+        margin-top:6rem;
     }
 }

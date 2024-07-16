@@ -54,6 +54,10 @@
 }
 @media screen and (max-width: 768px) {
 
+    .homeLeft{
+        margin-top:10rem;
+    }
+
     .saltation {
         font-weight: 400;
       
@@ -67,8 +71,9 @@
      margin:0;
      padding: 1rem;
      right: 0;
-     top: 11rem;
-     display: flex;
+     top: 1rem;
+     border-radius:30%;
+    
     }
   }
  
