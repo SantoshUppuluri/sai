@@ -13,7 +13,7 @@ const Home = () => {
       <p className='homePara'>
           I am a skilled Web Developer with creating a user frendly websites
         </p>
-        <a><button className='hireMe'><img src={hire} alt='hireMelogo' className='hireMelogo'/> Hire Me</button></a>
+        <Link><button className='hireMe'><img src={hire} alt='hireMelogo' className='hireMelogo'/> Hire Me</button></Link>
       </div>
       <img  src={developer} alt='developer' className='homeRight'/>
     </section>
