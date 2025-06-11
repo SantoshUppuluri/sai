@@ -44,7 +44,7 @@ const Contact = () => {
     if (validateForm()) {
       emailjs
        .sendForm('service_7chuvxb', 'template_89pl3oj', form.current, {
-          publicKey: '-i9Yj8PnMobStwn24',
+          publicKey: 'jAKTAvhjixD5YIZu-',
         })
        .then(
           () => {
