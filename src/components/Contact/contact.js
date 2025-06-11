@@ -43,7 +43,7 @@ const Contact = () => {
     e.preventDefault();
     if (validateForm()) {
       emailjs
-       .sendForm('service_pqn4oq4', 'template_1edw6lv', form.current, {
+       .sendForm('service_7chuvxb', 'template_1edw6lv', form.current, {
           publicKey: '-i9Yj8PnMobStwn24',
         })
        .then(
